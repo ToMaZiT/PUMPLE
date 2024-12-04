@@ -2,22 +2,42 @@
     margin: 0;
     padding: 0;
 
-    font-family: Montserrat;
 }
 
 
 
+
+
 .montserrat-<uniquifier> {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
 
+.cardo-regular {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cardo-bold {
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .cardo-regular-italic {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
 body {
     background-image: url(../assets/pexels-felixmittermeier-956981.jpg);
     background-position: center;
     background-size: cover;
+    font-family: Cardo;
 
 }
 
@@ -29,6 +49,7 @@ main {
 .kike {
     height: 100%;
     min-height: 700px; 
+    
 }
 
 .kike-box {
@@ -48,10 +69,11 @@ main {
     width: 140vh;
     z-index: 3;
     margin-top: 600px;
+    box-shadow: 15px -1px 50px 12px rgba(0, 0, 0, 0.3)
 }
 
 .card {
-    padding: 50px 10px 50px 10px;
+    padding: 30px 10px 50px 10px;
 }
 
 .title-box {
@@ -59,19 +81,43 @@ main {
     display: flex;
     align-items: center;
     justify-content: center; 
+    border-bottom: 1px solid black;
+    margin: 0 100px;
+    padding-bottom: 20px;
 }
+
 
 .title {
     font-size: 50px;
     text-align: center;
+    font-family: Montserrat;
 }
 
 .content-box {
-    padding: 50px 30px 0 30px;
+    padding: 40px 100px 0 100px;
 }
 .content {
     font-size: 20px;
+    padding-top: 30px;
+    line-height: 1.7;
+    font-weight: 1000;
+
 }
+
+.content-introduction {
+    text-align: center;
+    line-height: 1.8;
+    padding-top: 20px;
+    font-family: Montserrat;
+    
+}
+
+.first {
+    border-top: 1px solid black;
+    
+    margin-top: 50px;
+}
+
 
 
 
